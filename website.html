@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vakhipaad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .video-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .video-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+
+    .video-card video {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vakhipaad.com</h1>
+    <p>Your destination for amazing videos</p>
+  </header>
+
+  <main class="video-gallery">
+    <div class="video-card">
+      <video controls>
+        <source src="C:\Users\AA\Downloads\FootageCrate-4K_Police_Car_Driveby_3-s.mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <h3>drifting car</h3>
+    </div>
+
+    <div class="video-card">
+      <video controls>
+        <source src="video2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <h3>Video Title 2</h3>
+    </div>
+
+    <div class="video-card">
+      <video controls>
+        <source src="video3.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <h3>Video Title 3</h3>
+    </div>
+    
+    <!-- Add more video cards as needed -->
+  </main>
+
+  <footer>
+    &copy; 2025 Vakhipaad.com. All rights reserved.
+  </footer>
+
+</body>
+</html>
